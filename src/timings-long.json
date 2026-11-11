@@ -1,0 +1,89 @@
+{
+  "fps": 90,
+  "scenes": [
+    {
+      "id": "s1",
+      "from": 738,
+      "frames": 1664,
+      "voDur": 17.59,
+      "voStart": 8.549999999999999
+    },
+    {
+      "id": "s2",
+      "from": 2402,
+      "frames": 1635,
+      "voDur": 17.27,
+      "voStart": 27.03888888888889
+    },
+    {
+      "id": "s3",
+      "from": 4037,
+      "frames": 1751,
+      "voDur": 18.55,
+      "voStart": 45.205555555555556
+    },
+    {
+      "id": "s4",
+      "from": 5788,
+      "frames": 1578,
+      "voDur": 16.63,
+      "voStart": 64.66111111111111
+    },
+    {
+      "id": "s5",
+      "from": 7366,
+      "frames": 1981,
+      "voDur": 21.11,
+      "voStart": 82.19444444444444
+    },
+    {
+      "id": "s6",
+      "from": 9347,
+      "frames": 1837,
+      "voDur": 19.51,
+      "voStart": 104.20555555555555
+    },
+    {
+      "id": "s7",
+      "from": 11184,
+      "frames": 1751,
+      "voDur": 18.55,
+      "voStart": 124.61666666666666
+    },
+    {
+      "id": "s8",
+      "from": 12935,
+      "frames": 1895,
+      "voDur": 20.15,
+      "voStart": 144.07222222222222
+    },
+    {
+      "id": "s9",
+      "from": 14830,
+      "frames": 1837,
+      "voDur": 19.51,
+      "voStart": 165.12777777777777
+    },
+    {
+      "id": "s10",
+      "from": 16667,
+      "frames": 1664,
+      "voDur": 17.59,
+      "voStart": 185.5388888888889
+    }
+  ],
+  "prehook": {
+    "from": 0,
+    "frames": 288
+  },
+  "title": {
+    "from": 288,
+    "frames": 450
+  },
+  "outro": {
+    "from": 18331,
+    "frames": 495
+  },
+  "totalFrames": 18826,
+  "totalDuration": 209.17777777777778
+}

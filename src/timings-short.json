@@ -1,0 +1,39 @@
+{
+  "fps": 90,
+  "scenes": [
+    {
+      "id": "h1",
+      "from": 0,
+      "frames": 979,
+      "voDur": 10.23,
+      "voStart": 0.25
+    },
+    {
+      "id": "h2",
+      "from": 979,
+      "frames": 1008,
+      "voDur": 10.55,
+      "voStart": 11.127777777777778
+    },
+    {
+      "id": "h3",
+      "from": 1987,
+      "frames": 1094,
+      "voDur": 11.51,
+      "voStart": 22.32777777777778
+    },
+    {
+      "id": "h4",
+      "from": 3081,
+      "frames": 1094,
+      "voDur": 11.51,
+      "voStart": 34.483333333333334
+    }
+  ],
+  "endcard": {
+    "from": 4175,
+    "frames": 360
+  },
+  "totalFrames": 4535,
+  "totalDuration": 50.388888888888886
+}

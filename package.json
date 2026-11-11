@@ -1,0 +1,32 @@
+{
+  "name": "kisahmana",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Studio video kisah mistis Nusantara — visual 100% prosedural dari kode (Remotion).",
+  "scripts": {
+    "overlays": "node scripts/generate-overlays.mjs",
+    "measure": "node scripts/measure.mjs",
+    "ambience:long": "node scripts/ambience.mjs long",
+    "ambience:short": "node scripts/ambience.mjs short",
+    "mix:long": "node scripts/mix.mjs long",
+    "mix:short": "node scripts/mix.mjs short",
+    "render:long": "remotion render KisahManaLong out/long-master.mp4 --codec=h264 --crf=19 --concurrency=2",
+    "render:short": "remotion render KisahManaShort out/short-master.mp4 --codec=h264 --crf=19 --concurrency=2",
+    "finish:long": "node scripts/finalize.mjs long",
+    "finish:short": "node scripts/finalize.mjs short"
+  },
+  "dependencies": {
+    "@fontsource/bebas-neue": "^5.3.0",
+    "@fontsource/cinzel": "^5.3.0",
+    "@fontsource/poppins": "^5.3.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.542"
+  },
+  "devDependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "@remotion/cli": "^4.0.542",
+    "@sparticuz/chromium": "^153.0.0"
+  }
+}
